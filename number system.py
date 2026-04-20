@@ -11,7 +11,6 @@ def win():
     elif d==3:
         label3.config(text=f"{s:b}")
 
-
 root=tk.Tk()
 root.title("True")
 root.geometry("700x700")
@@ -30,6 +29,5 @@ entry=tk.Entry(root,font=("Times New Roman",14),fg="Black")
 entry.grid(row=1,column=0)
 label3=tk.Label(root,text=" ",bg="lightblue",font=("Times New Roman",14))
 label3.grid(row=2,column=1)
-
 
 root.mainloop()
