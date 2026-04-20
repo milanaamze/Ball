@@ -9,7 +9,6 @@ pygame.time.set_timer(timer, 60000)
 screen=pygame.display.set_mode((600,600))
 pygame.display.set_caption("sss")
 screen.fill((200,200,200))
-
 font=pygame.font.SysFont("Times New Roman",30)
 
 black_surf=pygame.Surface((40,40),pygame.SRCALPHA)
