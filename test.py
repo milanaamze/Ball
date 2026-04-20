@@ -1,4 +1,5 @@
 import tkinter as tk
+
 def arrange():
     i=0
     s=int(a.get())
