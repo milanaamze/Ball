@@ -1,5 +1,6 @@
 import tkinter as tk
 import math as tm
+
 def gold():
     a=entry.get()
     b=entry1.get()
